@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        p2 {color:blue;}
+    </style>
+    <h1 id="title">Good Morning</h1>
+    <p id="description">How are you today</p>
+    <P2>Siev Linh</P>
+    <button onclick="changeContent()">Click here to chang content</button>
+    <script>
+        function changeContent(){
+            let title = document.getElementById("title");
+            let description = document.getElementById("description");
+
+            title.innerHTML = "Hello PSBU Web Disinh class 2024";
+            description.innerHTML = "You have successfully change the content.Plase Enjoy!";
+
+            console.lon(title.innerHTML);
+            console.log(description.innerHTML);
+        }
+    </script>
+</body>
+</html>
